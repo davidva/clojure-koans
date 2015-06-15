@@ -24,5 +24,5 @@
      (repeat 10 :a))
 
   "Iteration can be used for repetition"
-  (= (repeat 100 :foo)
-     (take 100 (iterate identity :foo))))
+  (= (repeat 100 :hello)
+     (take 100 (iterate identity :hello))))
